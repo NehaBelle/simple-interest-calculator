@@ -1,0 +1,19 @@
+$ curl https://api.github.com/repos/NehaBelle/simple-interest-calculator/pulls/1
+
+{
+  "number": 1,
+  "state": "closed",
+  "title": "Fix typo in README",
+  "head": {
+    "ref": "bug-fix-typo",
+    "repo": {
+      "full_name": "NehaBelle/simple-interest-calculator"
+    }
+  },
+  "base": {
+    "ref": "main",
+    "repo": {
+      "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+    }
+  }
+}
